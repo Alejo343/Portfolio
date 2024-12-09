@@ -1,0 +1,14 @@
+.project-card-view .image-container {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card-view .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
