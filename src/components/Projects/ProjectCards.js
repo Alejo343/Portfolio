@@ -22,9 +22,7 @@ function ProjectCards(props) {
         onClick={handleCardClick}
         style={{ cursor: "pointer" }}
       >
-        {/* <div className="image-container"> */}
         <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-        {/* </div> */}
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
           <Card.Text style={{ textAlign: "justify" }}>

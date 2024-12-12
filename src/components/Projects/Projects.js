@@ -30,6 +30,8 @@ function Projects() {
               description="Una herramienta web para generar réplicas personalizadas de tickets antiguos de peajes y 
               exportarlos en formato Word. Diseñada para simplificar la creación de documentos con precisión y rapidez."
               images={Peajes}
+              ghLink="https://github.com/Alejo343/peajes"
+              demoLink="https://peajes.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -39,6 +41,7 @@ function Projects() {
               description="Para descubrir películas y series con detalles como sinopsis, reparto y puntuaciones. 
               Una herramienta ideal para explorar tendencias y encontrar peliculas facilmente."
               images={TusPelis}
+              ghLink="https://github.com/DaviDix117/appPeliculas"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -49,6 +52,7 @@ function Projects() {
               Permite registrar clientes, monitorear pagos, calcular intereses y llevar un control detallado del historial 
               de cada préstamo. Ideal para optimizar la administración financiera."
               images={Prestamos}
+              ghLink="https://github.com/Alejo343/Prestamos"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -59,6 +63,7 @@ function Projects() {
               precisa. Permite ingresar datos como monto, tasa de interés y plazo para obtener 
               pagos mensuales, intereses totales y un desglose detallado del plan de amortización."
               images={Cotizador}
+              ghLink="https://github.com/DaviDix117/cotizadorprestamosV1"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -68,6 +73,7 @@ function Projects() {
               description="Permite gestionar y recordar los cumpleaños de tus seres queridos. 
               Permite añadir, editar y organizar un listado con nombres y fechas"
               images={Birthday}
+              ghLink="https://github.com/DaviDix117/cumpleV1"
             />
           </Col>
         </Row>
